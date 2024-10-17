@@ -1,1 +1,1 @@
-# scandiweb-assignment-
+# scandiweb-assignment
