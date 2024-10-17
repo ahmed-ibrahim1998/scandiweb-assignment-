@@ -1,5 +1,6 @@
-# Scandiweb Junior Developer Test Task 
+## ScandiWeb's Assignment (Junior Web Developer position)
 
+# link of test website
 [view site](https://scandiweb-test-gtemgoua.great-site.net)
 
 
