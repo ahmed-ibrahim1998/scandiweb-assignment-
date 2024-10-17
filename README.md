@@ -16,4 +16,4 @@ A web-app (accessible by an URL) containing two pages for:
 [find the complete requirements set here](https://scandiweb.notion.site/Junior-Developer-Test-Task-1b2184e40dea47df840b7c0cc638e61e).
 
 ### What I did
-For this task, I chose to separate concerns by building a frontend using **Nextjs** and the backend with **PHP** leveraging the power of OOP programming as strictly required for the assignment. 
+For this task, I chose to separate concerns by building a frontend using **oop** and the backend with **PHP** leveraging the power of OOP programming as strictly required for the assignment. 
