@@ -1,0 +1,63 @@
+.footer {
+  background-color: $color-secondary;
+  color: white;
+  height: $footer-height;
+
+  &-title {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  @include flex($jc: space-between);
+  padding: 0 $desktop-margin;
+
+  &-links {
+    @include flex($ga: 30px);
+  }
+
+  &-link {
+    font-size: 22px;
+  }
+
+  &-copyright {
+    color: #ffffffcc;
+    font-size: 14px;
+  }
+  &-icon {
+    color: #ffffffcc;
+    &:hover,
+    &:focus {
+      color: white;
+    }
+  }
+
+  @include tablet {
+    flex-direction: column;
+    padding: 0 $tablet-margin;
+    gap: 0;
+    font-size: 22px;
+    height: $footer-height-tablet;
+
+    &-title {
+      text-align: center;
+    }
+  }
+
+  @include phone {
+    padding: 4px $phone-margin 8px;
+    height: $footer-height-phone;
+    &-title {
+      font-size: 20px;
+    }
+
+    &-links {
+      width: 80%;
+      justify-content: space-between;
+      gap: 0;
+    }
+
+    &-copyright {
+      font-size: 15px;
+    }
+  }
+}

@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+Disallow: /private/
+
+Sitemap: https://scandiweb-test-gtemgoua.great-site.net/sitemap.xml
