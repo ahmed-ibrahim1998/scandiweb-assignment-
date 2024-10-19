@@ -1,3 +1,12 @@
+
+
+## Backend repository 
+Here's the [Repository](https://github.com/ahmed-ibrahim1998/scandiweb-assignment-).
+
+## Deployment
+My app is deployed at [infinity free](https://prodify.lovestoblog.com).
+
+
 ## Get example
 ```php
 DB::table('products')->where('id', '>', '0')->get();
