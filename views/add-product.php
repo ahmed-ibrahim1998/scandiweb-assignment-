@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../assets/css/style.css">
     <title>Add Product</title>
 </head>
 
@@ -21,21 +21,21 @@
                         <h3>Hey, Add Product Now</h3>
                         <form id="product_form" method="POST" action="#">
                             <div class="col-md-12">
-                                <label for="sku">Sku</label><input class="form-control" type="text" name="sku" id="sku" placeholder="SKU">
+                                <input class="form-control" type="text" name="sku" id="sku" placeholder="SKU">
                             </div>
 
                             <div class="col-md-12">
-                                <label for="name">Name </label><input class="form-control mt-3" type="text" name="name" id="name"
-                                                                 placeholder="Product Name">
+                                <input class="form-control mt-3" type="text" name="name" id="name"
+                                    placeholder="Product Name">
                             </div>
 
                             <div class="col-md-12">
-                                <label for="price">Price</label><input class="form-control mt-3" type="number" name="price" id="price"
-                                                                  placeholder="Price ($)">
+                                <input class="form-control mt-3" type="number" name="price" id="price"
+                                    placeholder="Price ($)">
                             </div>
 
                             <div class="col-md-12">
-                                <label for="productType">Type Switcher</label><select class="form-select m-0 mt-3" id="productType">
+                                <select class="form-select m-0 mt-3" id="productType">
                                     <option value="" selected>Type Switcher</option>
                                     <option value="DVD" id="DVD">DVD-disc</option>
                                     <option value="Book" id="Book">Book</option>
@@ -85,9 +85,9 @@
     </div>
 
 
-    <script src="../assets/js/jquery3.4.1.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="../../assets/js/jquery3.4.1.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/main.js"></script>
 </body>
 
 </html>

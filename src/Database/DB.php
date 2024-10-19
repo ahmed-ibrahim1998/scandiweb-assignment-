@@ -44,8 +44,8 @@ class DB
         'host' => 'localhost',
         'port' => '3306',
         'database' => 'products',
-        'username' => 'root',
-        'password' => '',
+        'username' => 'masoud',
+        'password' => 'password',
         'options' => [
             PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES utf8',
         ]

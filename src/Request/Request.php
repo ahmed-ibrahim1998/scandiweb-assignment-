@@ -59,7 +59,7 @@ class Request
      */
     public static function setBaseUrl()
     {
-        $protocol       = $_SERVER['SERVER_PORT'];
+        $protocol       =  $_SERVER['REQUEST_SCHEME'] . '://';
         $host           =  $_SERVER['HTTP_HOST'];
         $script_name    = static::$script_name;
 

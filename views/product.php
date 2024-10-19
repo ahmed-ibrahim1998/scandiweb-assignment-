@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../../assets/css/style.css">
     <title>Product</title>
 </head>
 
@@ -14,7 +14,7 @@
     <nav class="navbar navbar-light bg-light">
         <a class="navbar-brand" href="#">Product</a>
         <ul class="actions justify-content-end my-0">
-            <button onclick="window.location.replace('add-product');" class="btn btn-success">ADD</button>
+            <button onclick="window.location.replace('/add-product');" class="btn btn-success">ADD</button>
             <button id="delete-product-btn" class="btn btn-danger">MASS DELETE</button>
         </ul>
     </nav>
@@ -52,9 +52,9 @@
         </div>
     </section>
 
-    <script src="../assets/js/jquery3.4.1.min.js"></script>
-    <script src="../assets/js/bootstrap.min.js"></script>
-    <script src="../assets/js/main.js"></script>
+    <script src="../../assets/js/jquery3.4.1.min.js"></script>
+    <script src="../../assets/js/bootstrap.min.js"></script>
+    <script src="../../assets/js/main.js"></script>
 </body>
 
 </html>
