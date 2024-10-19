@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../public/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/assets/css/style.css">
     <title>Add Product</title>
 </head>
 
@@ -85,9 +85,9 @@
     </div>
 
 
-    <script src="../../assets/js/jquery3.4.1.min.js"></script>
-    <script src="../../assets/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/main.js"></script>
+    <script src="../public/assets/js/jquery3.4.1.min.js"></script>
+    <script src="../public/assets/js/bootstrap.min.js"></script>
+    <script src="../public/assets/js/main.js"></script>
 </body>
 
 </html>

@@ -1,6 +1,6 @@
-    <script src="../../assets/js/jquery3.4.1.min.js"></script>
-    <script src="../../assets/js/bootstrap.min.js"></script>
-    <script src="../../assets/js/main.js"></script>
+    <script src="../../public/assets/js/jquery3.4.1.min.js"></script>
+    <script src="../../public/assets/js/bootstrap.min.js"></script>
+    <script src="../../public/assets/js/main.js"></script>
     </body>
 
     </html>
