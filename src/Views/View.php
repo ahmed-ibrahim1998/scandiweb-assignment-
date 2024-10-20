@@ -25,7 +25,6 @@ class View
         if (! file_exists($path)) {
             throw new \Exception("The view file {$path} is not exist");
         }
-
         ob_start();
         extract($data);
         include $path;
