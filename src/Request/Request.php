@@ -59,9 +59,12 @@ class Request
      */
     public static function setBaseUrl()
     {
-        $protocol       =  $_SERVER['REQUEST_SCHEME'] . '://';
-        $host           =  $_SERVER['HTTP_HOST'];
-        $script_name    = static::$script_name;
+        $protocol = isset($_SERVER['REQUEST_SCHEME'])
+            ? $_SERVER['REQUEST_SCHEME'] . '://'
+            : ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on') ? 'https://' : 'http://');
+
+        $host = $_SERVER['HTTP_HOST'];
+        $script_name = static::$script_name;
 
         static::$base_url = $protocol . $host . $script_name;
     }

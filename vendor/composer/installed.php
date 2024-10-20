@@ -3,7 +3,7 @@
         'name' => 'scandiweb/product',
         'pretty_version' => 'dev-master',
         'version' => 'dev-master',
-        'reference' => '090f9e6e1edecc3bd64de3e0517873f5a1ef67f8',
+        'reference' => 'e5bb0bc0de833564eca0e2ac2c23c854b2db52e9',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'scandiweb/product' => array(
             'pretty_version' => 'dev-master',
             'version' => 'dev-master',
-            'reference' => '090f9e6e1edecc3bd64de3e0517873f5a1ef67f8',
+            'reference' => 'e5bb0bc0de833564eca0e2ac2c23c854b2db52e9',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

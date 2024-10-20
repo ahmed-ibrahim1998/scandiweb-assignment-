@@ -1,16 +1,16 @@
 html, body {
     height: 100%;
-    background-color: #152733;
+    background-color: #d8dbdd;
     overflow-x: hidden;
 }
 
 .navbar{
     box-shadow: -11px -8px 15px 7px rgb(154 153 153 / 50%);
     border-bottom: 1px solid #495057;
-    background-color: #152733 !important;
+    background-color: #0e0e0e !important;
 }
 .navbar-light .navbar-brand{
-    color: #fff;
+    color: #ec0707;
 }
 .product{
     font-family: 'Open Sans', sans-serif;
