@@ -16,7 +16,6 @@ class ProductController
 
     public function create()
     {
-        return 12;
         return View::render("add-product");
     }
 

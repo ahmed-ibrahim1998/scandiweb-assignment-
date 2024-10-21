@@ -7,7 +7,7 @@ use Scandiweb\Product\Request\Request;
 class Route
 {
 
-     /**
+    /**
      * All routes
      *
      * @var array $routes
@@ -28,7 +28,7 @@ class Route
 
         static::$routes[] = [
             'uri' => $uri,
-            'callback'=> $callback,
+            'callback' => $callback,
             'method' => $method,
         ];
     }
@@ -56,10 +56,10 @@ class Route
     }
 
     /**
-      * Handle
-      *
-      * @return mixed
-      */
+     * Handle
+     *
+     * @return mixed
+     */
     public static function handle()
     {
         $uri = Request::url();
@@ -67,7 +67,6 @@ class Route
             $matched = true;
             $route['uri'] = preg_replace('/\/{(.*?)}/', '/(.*?)', $route['uri']);
             $route['uri'] = '#^' . $route['uri'] . '$#';
-
             if (preg_match($route['uri'], $uri, $matches)) {
                 array_shift($matches);
                 $params = array_values($matches);
@@ -85,7 +84,7 @@ class Route
                 }
             }
         }
-        die('not found');
+        die('There is not found');
     }
 
     /**
