@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f34e97-dc80-42a3-805d-2a26a202ab5b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    <list default="true" id="73f34e97-dc80-42a3-805d-2a26a202ab5b" name="Changes" comment="add database file">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,11 +83,24 @@
       <workItem from="1729623041429" duration="2966000" />
       <workItem from="1729680412289" duration="5225000" />
       <workItem from="1729686290492" duration="3845000" />
-      <workItem from="1729691436928" duration="594000" />
+      <workItem from="1729691436928" duration="1713000" />
     </task>
+    <task id="LOCAL-00001" summary="add database file">
+      <option name="closed" value="true" />
+      <created>1729692189922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1729692189922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add database file" />
+    <option name="LAST_COMMIT_MESSAGE" value="add database file" />
   </component>
 </project>
