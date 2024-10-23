@@ -25,10 +25,8 @@ This project was created with:
 
 ## Setup
 
-
 * Git clone
-* create new database it's name products_db
+* create new database it's name products_db and import file in foleder database
 * Start Apache and MYSQL on Xampp or laragon 
-* Open the folder and run composer update in the terminal
 * Run ``cd /laragon/www/scandiwebTask/public``
 
