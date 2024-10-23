@@ -31,8 +31,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h2>Product List</h2>
         <div>
-            <button class="btn btn-primary" id="add-product">Add</button> <!-- Changed to button -->
-            <button class="btn btn-danger" id="mass-delete">Mass Delete</button>
+            <button class="btn btn-primary" id="add-product">ADD</button> <!-- Changed to button -->
+            <button class="btn btn-danger" id="mass-delete">MASS DELETE</button>
         </div>
     </div>
 
