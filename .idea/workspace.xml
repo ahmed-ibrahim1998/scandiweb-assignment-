@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="73f34e97-dc80-42a3-805d-2a26a202ab5b" name="Changes" comment="add database file">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="73f34e97-dc80-42a3-805d-2a26a202ab5b" name="Changes" comment="add database file" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +81,7 @@
       <workItem from="1729623041429" duration="2966000" />
       <workItem from="1729680412289" duration="5225000" />
       <workItem from="1729686290492" duration="3845000" />
-      <workItem from="1729691436928" duration="1713000" />
+      <workItem from="1729691436928" duration="2040000" />
     </task>
     <task id="LOCAL-00001" summary="add database file">
       <option name="closed" value="true" />
