@@ -3,26 +3,30 @@
 ## Backend repository 
 Here's the [Repository](https://github.com/ahmed-ibrahim1998/scandiweb-assignment-).
 
-## Deployment
-My app is deployed at [infinity free](https://prodify.lovestoblog.com).
+## Scandiweb Junior Developer Test
 
+This is a product's website.
 
-## Get example
-```php
-DB::table('products')->where('id', '>', '0')->get();
-```
-## First example
-```php
-DB::table('products')->where('id', '>', '0')->first();
-```
-## Create exampel
-```php
- $x = DB::table('products')->create([
-    'title'=>'hello title',
-     'content'=>'hello content',
- ]);
-```
-## Delete example
- ```php
- $x = DB::table('products')->delete('id', [20,21]);
- ```
+## Project Info
+
+A web-app (accessible by an URL) containing two pages for:
+
+* Product list page.
+* Adding a product page.
+
+## Technologies
+
+This project was created with:
+
+* PHP.
+* oop.
+* Bootstrap.
+* Jquery.
+
+## Setup
+
+* Git clone
+* create new database it's name products_db and import file in foleder database
+* Start Apache and MYSQL on Xampp or laragon 
+* Run ``cd /laragon/www/scandiwebTask/public``
+

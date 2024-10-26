@@ -1,15 +1,22 @@
 <?php
 
-//Register autoload
-require __DIR__ . '/vendor/autoload.php';
+// استخدام namespace الصحيح
+namespace App;
 
-// Register Bootatrap
-require __DIR__ . '/bootstrap/app.php';
+require_once 'vendor/autoload.php';
 
-/*
-|-----------------------------------------
-| Run the application
-|----------------------------------------
-|Bootstrap application and do actions
-*/
-Application::run();
+use App\Controllers\ProductController;
+use Config\Database; // تأكد أن المسار صحيح
+
+// اتصل بقاعدة البيانات إذا لزم الأمر
+$db = (new Database())->getConnection(); // إذا كنت بحاجة إلى الاتصال بالقاعدة
+
+// إنشاء كائن من ProductController
+$productController = new ProductController();
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $productController->addProduct(); // استدعاء الدالة لإضافة المنتج
+}
+
+// تحميل واجهة إضافة المنتج
+include 'views/add-product.php'; // Load the add product view
